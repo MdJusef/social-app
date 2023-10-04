@@ -1,3 +1,33 @@
+## Features
+<ul>
+    <li>User Registration and Login</li>
+    <li>Authentication</li>
+    <li>Password Reset</li>
+    <li>User Profiles</li>
+    <li>Post Creation with Text and Image Upload</li>
+    <li>Post Viewing and Display</li>
+    <li>User Timeline</li>
+    <li>Liking and Unliking Posts</li>
+    <li>Comenting on Posts</li>
+    <li>Display of Likes and Comments</li>
+    <li>Followers System</li>
+</ul>
+
+## Technologies Used
+<ul>
+    <li>Backend Framework: Laravel</li>
+    <li>Frontend Framework: Blade Template, Bootstrap5</li>
+    <li>Database: MySql</li>
+</ul>
+
+## Installation
+<ol>
+    <li>Clone the repository</li>
+    <li>Run "composer install" to install PHP dependencies</li>
+    <li> Run "php artisan migrate" to create the database tables</li>
+    <li>Start the development server</li>
+</ol>
+
 ## Screenshot
 <table>
     <thead>
@@ -113,4 +143,3 @@
     <li>One Post can have many Comments (One-to-Many relationship).</li>
     <li>One User can follow many Users, and a User can be followed by many Users (Many-to-Many relationship through the Followers Table).</li>
 </ul>
-
